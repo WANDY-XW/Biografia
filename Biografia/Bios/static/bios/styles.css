@@ -1,0 +1,545 @@
+*
+{     margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;}
+
+html
+{     font-size: 62,5px;
+      font-family: 'Special Elite', cursive;}
+
+
+body
+{     background-image: 
+      linear-gradient(-180deg, #a4c6eeae 10%, #ffffff 80%);
+      height: 50rem; 
+      background-repeat: no-repeat;}
+
+
+main
+{     width: 23rem;
+      margin: 0 auto;}
+
+.portada
+{     width: 23rem;
+      height: 12rem;
+      margin-top: 1px;
+      border-radius: 0.7rem;
+      display: flex;
+      box-shadow: 0px 2px 2px 1px  rgba(151, 151, 151, 0.702);
+      background: url( /static/bios/background/purpe.jpg)
+      no-repeat center  ;}
+
+.portada img
+{     width: 192.97px;
+      height: 182.05px;
+      margin-left : 1px;
+      margin-top: 2px;
+      border-radius: 7rem;
+      box-shadow: 0px 2px 2px 1px  rgba(151, 151, 151, 0.702);}
+
+.portada .info1
+{     height: 62px;
+      width: 159px;
+      
+      align-self:flex-end;
+      margin-left: 9px;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      justify-content: center;
+      box-shadow: 1px 2px 3px 1px  rgba(98, 49, 100, 0.588);
+      color: #282828;
+      border: none;
+      display: flex;
+      flex-wrap: wrap;
+      line-height: normal;
+      
+      /* padding: 2px; */
+
+      background-color: #2d19383a;
+      backdrop-filter: blur(15px);
+      font-family: 'Special Elite';}
+
+ .info1   div
+{     align-self: center;
+      display: flex;
+      height: 2rem;
+      flex-wrap: wrap;
+      width: 10rem;}
+
+
+.info1 p, strong
+{     color: #C478FF;
+      text-shadow: 1px 1px 5px rgb(154, 154, 154);
+      font-weight: 700;
+      font-size: 1rem;}
+
+strong
+{     color: #F6EBFF;}
+
+hr
+{        box-shadow: 1px 2px 3px 1px  rgba(153, 153, 153, 0.702);}
+
+.biografia
+{     width: 23rem;
+      height: 4.5rem;
+
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 600;
+      line-height: 1.0;
+      font-family: 'Special Elite';}
+
+#mas
+{     width: 4rem;
+      height: 1.5rem;
+      border-radius: 4px;
+      background-color: #C478FF;
+      border: none;
+     font-weight: 700;
+     padding: 2px;
+      border: none;
+      box-shadow: 1px 2px 3px 1px  rgba(153, 153, 153, 0.702);}
+
+#mas:hover
+{     outline: none;
+      text-transform: uppercase;
+      color: #ffffffb8;
+      box-shadow: none;}
+
+.biografia p
+{     padding: 4px;}
+
+
+
+
+.biografia strong
+{     color: #C478FF;
+      text-shadow: none ;}
+
+
+#invisible strong
+{    color: #C478FF;
+      text-shadow: none; }
+
+#ultima
+{     width: 23rem;
+      height: 20rem;
+      background: url( /static/bios/background/purpe.jpg)
+      no-repeat center ;
+      border-radius: 1rem;
+      background-size: cover;}
+      
+#final
+{     width: auto;
+      display: flex;
+      border-radius: 1rem;
+      background-color: #a58eb72c;
+      backdrop-filter: blur(30px);}
+
+#bootstrap
+{     width: 27rem;
+      height: 17rem;
+      align-self: center;
+      background-color: transparent;
+      box-shadow: none;
+      filter: blur(0);}
+
+#bootstrap div
+{     width: 100%;
+      height: auto;
+      background-color: transparent;
+      box-shadow: none;}
+
+
+#rutas
+{     display: flex;
+      justify-content: right;
+      margin-left: 5px;
+      background-color: transparent;
+      position: absolute;
+      bottom:0;
+      margin: 0.2rem auto;
+      width: 99.9%;
+      background-color: none;}    
+
+#rutas div
+{    
+      height: 2.5rem;
+      background-color: #2d19383a;
+      width: 10rem;
+      display: flex;
+      justify-content: center;
+      border-radius: 0.8rem;
+      align-self: center;
+      text-align: center;
+      overflow: hidden;
+      margin-bottom: 1rem;}
+
+
+#rutas h3
+{    font-family: 'Special Elite', cursive;
+      margin-top: 12px;
+      font-size: 1.2rem;
+      margin-left: 2px;
+      font-weight: 700;
+      color: #ffffff;}
+
+#mas-button
+{     background-color: transparent;
+      outline: none;
+      border: none;}
+
+#rutas h3:hover
+{     color: #C478FF;
+      text-transform: uppercase;}
+
+#rutas a
+{     text-decoration: none;}
+
+#rutas span img 
+{     width: 2.5rem;
+      height:2.5rem;}
+
+#rutas span img:hover
+{     width: 2.6rem;
+      height: 2.7rem;
+      background-color: #C478FF;
+      border-radius: 0.7rem;}
+
+#rutas span
+{     background-color: #ffffff;
+      border-radius: 0.7rem;
+      margin-left: 1rem;
+      margin-top: 1px;
+      margin-bottom: 1px;}
+
+#rutas-mas
+{     display: none;
+      flex-wrap: wrap;
+      position: absolute;
+      top: 0.5rem;
+      right: 1.2rem;
+      /* background: url(/static/bios/background/background.JPG)
+      no-repeat center;
+      background-size: cover; */
+      backdrop-filter: blur(4px);
+      width: 10.1rem;
+      height: 18rem;
+      border-radius: 0.9rem;
+      box-shadow: #C478FF 3px 3px 7px 1px;}
+
+#rutas-mas button 
+{     width: 8.6rem;
+      height: 3.7rem;
+      align-self: center;
+      margin: 0 auto;
+      border-radius: 0.8rem;
+      background-color: #a58eb73e;
+      backdrop-filter: blur(3px);}
+
+
+#rutas-mas a:hover
+{     text-transform: uppercase;
+      color: #C478FF;
+      font-size: 1rem;
+      text-shadow: 1px 1px 1px rgb(36, 36, 36);}
+
+#rutas-mas a
+{     text-decoration: none;
+      color: #ffffff;
+      text-shadow: #a4a4a4 1px 1px 1px ;
+      font-family: 'Special Elite', cursive;}
+
+      /* Rutas mas configurada con JS */
+
+
+
+
+/* Seccion bio */
+#bios
+{     background: #ffffff70;
+      backdrop-filter: blur(4px);
+      border-radius: 1rem;
+      width: 23rem;
+      height: 30rem;
+      overflow:scroll;
+      scroll-behavior: smooth;            
+      overflow-wrap: normal;
+      box-shadow: 1px 2px 3px 1px  rgba(153, 153, 153, 0.702);
+      text-align: center;
+      font-weight: 700;
+      scrollbar-color: black;}
+
+#bios p
+{     padding: 1rem;}
+
+#bios  strong
+{     color: #C478FF;
+      text-shadow: none;
+      font-weight: 700;}
+
+
+/* Juegos JS */
+
+#invisible 
+{     display: none;
+      background: #ffffff70;
+      backdrop-filter: blur(4px);
+      border-radius: 1rem;
+      width: 23rem;
+      height: 20rem;
+      overflow:scroll;
+      scroll-behavior: smooth;            
+      overflow-wrap: normal;
+      box-shadow: 1px 2px 3px 1px  rgba(153, 153, 153, 0.702);
+      text-align: center;
+      font-weight: 700;
+      scrollbar-color: black;
+      position: relative;
+      top: 2;}
+
+#invisible p
+{     padding: 2px;}
+
+.back
+{     color: #C478FF;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px #C478FF solid;
+      border-radius: 4px;
+      padding: 2px;
+      width: 2rem; }
+
+
+.back:hover
+{     box-shadow: 1px 2px 3px 1px  rgba(153, 153, 153, 0.702);
+      text-decoration: none;
+      border-radius: 4px;
+      padding: 2px;
+      width: 2rem;
+      background-color: #C478FF;
+      color: #ffffffb8;}
+
+::-webkit-scrollbar
+{    background-color: transparent;
+      width: 1px;      } 
+
+
+
+
+
+      /* Styles Redes */
+body{
+      justify-content: center;}
+
+#main-redes
+{     width: 375px;
+      height: 670px;
+      background: url(/static/bios/background/background.JPG) center no-repeat;
+      background-size: cover;
+      position: absolute;        
+      margin-left:auto; margin-right:auto; left:0; right:0;
+      display: flex;
+      flex-wrap: wrap;}
+
+header
+{     background-color: #a58eb742;
+      backdrop-filter: blur(4px);
+      width: 19rem;
+      height: 5rem;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 1rem;
+      display: flex;}
+
+.contact-header
+{     align-self: center;
+      text-align: center;
+      width: 100%;
+      }
+
+.contact-header h2
+{     color: #ffffff;
+      text-shadow: 0px 1px 1px rgb(79, 79, 79);}
+
+
+section
+{     width: 100%;
+      height: 23rem;
+     /* background-color: #282828; */
+      align-self: center;}
+
+section div
+{     background-color: #a58eb742;
+      width: 8rem;
+      height: 56px;
+      margin: 10px 14px;
+      border-radius: 0.7rem;
+      backdrop-filter: blur(4px);
+      display: flex;
+      box-shadow: #c578ff5b 3px 3px 5px 0px;
+      text-align: center;}
+
+section div a:hover
+{     text-decoration: none;
+      text-transform: uppercase;}
+
+section div a
+{     color: #ffffff;
+      text-decoration: none;
+      align-self: center;
+      width: 100%;}
+
+
+.hovers
+{     
+      background-color: #ffffff8a;
+      backdrop-filter: blur(4px);
+      width: 15rem;
+      height: 14rem;
+      margin-left: auto;
+      left: 7rem;
+      top: 12.7rem;
+      right: 0 ;
+      margin-right: auto;
+      position: absolute;
+      border-radius: 1rem;
+      display: flex;
+      display: none;
+      justify-content: center;
+      }
+
+.hovers #hovers-redes
+{     
+      border-radius: 1rem;
+      width: 11rem;
+      height: 10rem;
+      align-self: center;}
+
+
+/* Redes  styles*/
+.strong-Github, 
+.strong-Instagram, 
+.strong-Twiter,
+.strong-WhatsApp
+{     text-shadow:0px 2px 1px rgb(83, 83, 83) ;}
+
+
+.strong-Twiter
+{     color: #6E9FFF;}
+
+.strong-Instagram 
+{     color:  #ff00e1d3;}
+
+.strong-WhatsApp
+{     color: #00ff55c9;}
+
+.strong-Github
+{     color: #a4a4a4;}
+
+
+/* Footer */
+
+.contact-footer
+{     
+      width: 23.4rem;
+      height: 3.8rem;
+      display: flex;
+  
+  
+      }
+
+.contact-footer div 
+{    
+      width: 7rem;
+      height: 46px;
+      margin: auto auto;
+      border-radius: 0.7rem;
+      backdrop-filter: blur(4px);
+      display: flex;
+      text-align: center;
+      }
+
+.contact-footer div a
+{     color:#ffffff;
+      text-decoration: none;
+      text-shadow:0px 2px 1px rgb(83, 83, 83) ;
+      align-self: center;
+      color: #C478FF;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px #C478FF solid;
+      border-radius: 4px;
+      padding: 2px;
+      height: 2.5rem;
+      background-color: #ffffff8a;
+      backdrop-filter: blur(4px);}
+
+      /* Citas-Fotos */
+
+.REDES
+{     margin-top: 10rem;
+      }
+
+.REDES div a
+{     color:#ffffff;
+      font-family: 'Special Elite';}
+
+.REDES div
+{     background-color: #282828;}
+
+
+           /* Media Q */
+@media (min-width:412px){
+      .biografia
+      {     width: 25rem;}
+
+      .portada .info1
+      {     margin-bottom: 1rem;
+            width: 200px;}
+}
+
+@media (min-width:600px) {
+      .portada .info1
+      {     width: 300px;
+            text-align: left;
+            justify-content: left;}
+
+            .info1   div
+            {
+                  margin-left: 1rem;}
+
+      .biografia
+      {     width: 28rem;}
+
+      .portada img
+      {     margin-top: 20px;}}
+
+
+@media (min-width:760px) {
+      .portada .info1
+      {     margin-bottom: 1rem;
+            width: 500px;}
+
+      .biografia
+      {     width: 35rem;}
+            
+      .portada img
+      {     margin-top: 28px;}}
+
+@media (min-width:23rem) {
+      
+
+      #ultima
+{     width: auto;
+      background-color: #282828;}
+      
+
+      main
+      {     width: auto;
+            max-width: 800px;
+                  }
+
+
+      .portada
+      {     width:auto ; }}

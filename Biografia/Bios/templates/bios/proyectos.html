@@ -1,0 +1,56 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="{% static 'bios/styles.css' %}">
+      <script src="{% static 'bios/js/scritp.js' %}"></script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.
+0">
+      <title>Proyect</title>
+</head>
+<body>
+      <header>
+
+      </header>
+      <main>
+            
+      </main>
+      <footer>
+            <div id='rutas'> 
+                  <div>
+                        <button id='mas-button' onclick='Rutas()' >
+                              
+                                    <h3>¿Mas?</h3>
+                              
+                        </button>
+            
+                                
+                        <span>
+                              <a href="{% url 'bio:homeviews' %}">
+                                    <img src=" {% static 'bios/img+/BacSpace.png' %} "  alt="NoFound">
+                              </a>
+                              
+                        </span>
+                  </div>
+             </div>
+            <section id='rutas-mas' >
+                        <button>
+                              <a href="{% url 'bio:redes' %}">Redes</a>
+                        </button>
+                        <button>
+                              <a href=" {% url 'bio:proyectos' %} ">Proyectos</a>
+                        </button>
+                        <button>
+                              <a href="{% url 'bio:historias' %}">Historias</a>
+                        </button>
+                        <button>
+                              <a href=" {% url 'bio:citas' %} ">Fotos</a>
+                        </button>
+                  </section>
+      </footer>
+</body>
+</html>
